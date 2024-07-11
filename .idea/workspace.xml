@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="25975fe5-4ccd-4b6b-87bd-4f78c00ba742" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/app/docker-compose-1.0.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/app/start.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/app/stop.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/environment/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/environment/redis/redis.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/environment/rocketmq/create-group.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/environment/rocketmq/create-topic.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/environment/rocketmq/data/console/config/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/environment/rocketmq/data/console/config/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/environment/rocketmq/data/console/store/dashboard2023-11-04.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/environment/rocketmq/data/console/store/dashboard2023-11-04_topic.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/environment/rocketmq/data/console/store/users.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/environment/rocketmq/data/logs/consolelogs/rocketmq-console.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/environment/rocketmq/data/logs/logs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/environment/rocketmq/data/logs/rocketmqlogs/brokerLogDir_IS_UNDEFINED/broker.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/environment/rocketmq/data/logs/rocketmqlogs/rocketmq_client.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/environment/rocketmq/data/rocketmq/conf/broker.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/environment/rocketmq/data/rocketmq/store/store.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/environment/sql/nacos.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/environment/sql/xfg_dev_tech_db_00.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/environment/sql/xfg_dev_tech_db_01.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/dev-ops/environment/sql/xxl_job.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-api/src/main/java/com/pepe/api/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-api/src/main/java/com/pepe/api/model/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/build.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/src/main/java/com/pepe/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/src/main/java/com/pepe/config/GuavaConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/src/main/java/com/pepe/config/RedisClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/src/main/java/com/pepe/config/RedisClientConfigProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/src/main/java/com/pepe/config/ThreadPoolConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/src/main/java/com/pepe/config/ThreadPoolConfigProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/src/main/java/com/pepe/config/XxlJobAutoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/src/main/java/com/pepe/config/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/src/main/java/com/pepe/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/src/main/resources/application-test.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/src/main/resources/mybatis/config/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/src/main/resources/mybatis/mapper/user_order_mapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/src/main/resources/sharding/sharding-jdbc-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/src/test/java/com/pepe/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/src/test/java/com/pepe/test/infrastructure/persistent/UserOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-app/src/test/java/com/pepe/test/infrastructure/redis/RedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-domain/src/main/java/com/pepe/domain/xxx/adapter/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-domain/src/main/java/com/pepe/domain/xxx/model/aggregate/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-domain/src/main/java/com/pepe/domain/xxx/model/entity/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-domain/src/main/java/com/pepe/domain/xxx/model/valobj/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-domain/src/main/java/com/pepe/domain/xxx/repository/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-domain/src/main/java/com/pepe/domain/xxx/service/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-domain/src/main/java/com/pepe/domain/yyy/model/aggregate/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-domain/src/main/java/com/pepe/domain/yyy/model/entity/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-domain/src/main/java/com/pepe/domain/yyy/model/valobj/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-domain/src/main/java/com/pepe/domain/yyy/repository/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-domain/src/main/java/com/pepe/domain/yyy/service/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-infrastructure/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-infrastructure/src/main/java/com/pepe/infrastructure/gateway/adapter/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-infrastructure/src/main/java/com/pepe/infrastructure/gateway/api/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-infrastructure/src/main/java/com/pepe/infrastructure/gateway/dto/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-infrastructure/src/main/java/com/pepe/infrastructure/persistent/dao/IUserOrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-infrastructure/src/main/java/com/pepe/infrastructure/persistent/dao/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-infrastructure/src/main/java/com/pepe/infrastructure/persistent/po/UserOrderPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-infrastructure/src/main/java/com/pepe/infrastructure/persistent/po/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-infrastructure/src/main/java/com/pepe/infrastructure/persistent/repository/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-infrastructure/src/main/java/com/pepe/infrastructure/redis/IRedisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-infrastructure/src/main/java/com/pepe/infrastructure/redis/RedissonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-trigger/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-trigger/src/main/java/com/pepe/trigger/http/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-trigger/src/main/java/com/pepe/trigger/job/XXLJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-trigger/src/main/java/com/pepe/trigger/listener/MQListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-trigger/src/main/java/com/pepe/trigger/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-trigger/src/main/java/com/pepe/trigger/rpc/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-types/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-types/src/main/java/com/pepe/types/common/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-types/src/main/java/com/pepe/types/exception/AppException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepe-market-types/src/main/java/com/pepe/types/model/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\local" />
+        <option name="userSettingsFile" value="E:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2j6awKGBn3PKIEN0adJhkshbQU8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.Application.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/javaproject/pepe-market",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="pepe-market-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pepe.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25975fe5-4ccd-4b6b-87bd-4f78c00ba742" name="Changes" comment="" />
+      <created>1720710220478</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720710220478</updated>
+      <workItem from="1720710222573" duration="1988000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
